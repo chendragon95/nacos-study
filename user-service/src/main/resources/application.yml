@@ -1,0 +1,27 @@
+server:
+  port: 8022
+
+  ######## 该项目编译resources文件有问题, 请不要修改此项目修改application.yml ########
+  ######## 该项目编译resources文件有问题, 请不要修改此项目修改application.yml ########
+  ######## 该项目编译resources文件有问题, 请不要修改此项目修改application.yml ########
+  ######## 该项目编译resources文件有问题, 请不要修改此项目修改application.yml ########
+
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      # nacos服务地址. 默认值localhost:8848. 可以配置在spring.cloud.nacos.server-addr和spring.cloud.nacos.discovery.server-addr
+      server-addr: localhost:8848
+      # 注册中心配置
+      discovery:
+        # 配置集群名称(异步不配置的). 默认值DEFAULT
+        cluster-name: MYCLUSTER
+        # 命名空间ID. 默认为public命名空间, 无ID默认值(即无namespace默认值)
+        namespace: 013f54f2-582f-4921-a998-46fdabeb0542
+
+
+  ######## 该项目编译resources文件有问题, 请不要修改此项目修改application.yml ########
+  ######## 该项目编译resources文件有问题, 请不要修改此项目修改application.yml ########
+  ######## 该项目编译resources文件有问题, 请不要修改此项目修改application.yml ########
+  ######## 该项目编译resources文件有问题, 请不要修改此项目修改application.yml ########

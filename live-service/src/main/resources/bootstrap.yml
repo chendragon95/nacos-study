@@ -1,0 +1,17 @@
+server:
+  port: 8044
+
+spring:
+  application:
+    name: live-service
+#  profiles:
+#    active: dev
+  cloud:
+    nacos:
+      config:
+        # nacos服务地址. 默认值localhost:8848
+        server-addr: localhost:8848
+        # 配置文件后缀(在bootstrap.yml或在bootstrap.properties配置文件中才会生效). 默认值properties
+        file-extension: yml
+        # 指定配置文件的前缀, 较少使用
+        # prefix: com.chenlongji.nacosstudy:${spring.application.name}
